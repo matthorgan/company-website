@@ -2,36 +2,36 @@
 title: "Services"
 weight: 2
 header_menu: true
+--- 
+
+Here at Horgan Tech, we offer a variety of services to help you with your IT projects. Whatever your requirements may be, we're here to ensure that our many years of enterprise IT experience can enable you to achieve your goals. Below are some of our key services but there are many other areas that we have experience in so please do get in touch with your requirements.
+
 ---
 
-That is the important part, right? You want to know what I can do for you. This is why I put this right up there into the header menu of the website.
+## Cloud Engineering Services
 
----
-
-## Nutrition Coaching
-
-This is not an easy task. You will likely have to pay money for this. You know what - let us look at a nice picture first.
-
-![Nice picture to make you pay me ;-)](images/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330.jpg)
+Design, Implementation, and Support
 
 Wow. That was nice, right? Well, call me and let us talk.
 
 ---
 
-## Chef Consulting
+## DevOps Engineering Services
 
-Did you see the picture above? I can show you how to go from
-
-![Let us get started on a clean slate](images/board-bunch-cooking-food-349609.jpg)
-
-to
-
-![Let us get started on a clean slate](images/woman-pouring-juice-on-glass-3184192.jpg)
-
-in estimated seconds.
+Design, Implementation, and Support.
 
 ---
 
-Want to learn more about my services?
+## Cloud Migration
 
-Check out [this page](services) I created. It carries a lot more details...
+Years of experience with traditional on-prem kit, we can help make that transition into the Cloud a smooth and seamless journey.
+
+---
+
+## DevOps Training
+
+Teaching you how to sort your pipe
+
+---
+
+Do you have requirements for skills that aren't mentioned above? Get in touch with us and we can discuss your needs in detail.

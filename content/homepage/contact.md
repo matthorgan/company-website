@@ -6,4 +6,4 @@ header_menu: true
 
 {{<icon class="fa fa-envelope">}}&nbsp;[info@horgan.tech](mailto:info@horgan.tech)
 
-Let us get in touch!
+Get in touch for a chat on how we can help with your DevOps and Cloud requirements.
