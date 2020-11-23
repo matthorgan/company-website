@@ -1,8 +1,27 @@
 name: build-site
-on: [push]
+on:
+  push:
+    branches:
+      - source
 jobs:
   install-hugo:
     runs-on: windows-2019
     steps:
-      - uses: actions/checkout@v2
-      - run: choco install hugo -y
+      - name: Git Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Hugo
+        run: choco install hugo -y
+
+      - name: Grab latest Submodule Code
+        run: git submodule update --init --recursive
+
+      - name: Build site with Hugo
+        run: hugo
+
+      - name: Run Build Script
+        run: ./.github/scripts/build.ps1
+        env:
+          TARGET_BRANCH: main
+
+
