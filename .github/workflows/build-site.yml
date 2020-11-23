@@ -12,7 +12,6 @@ jobs:
 
       - name: Install Hugo
         run: |
-          sudo apt-getupdate
           sudo apt-get install hugo
 
       # - name: Install Hugo
