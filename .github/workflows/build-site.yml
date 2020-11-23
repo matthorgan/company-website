@@ -1,0 +1,8 @@
+name: build-site
+on: [push]
+jobs:
+  install-hugo:
+    runs-on: windows-2019
+    steps:
+      - uses: actions/checkout@v2
+      - run: choco install hugo -y
