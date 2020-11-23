@@ -5,13 +5,18 @@ on:
       - source
 jobs:
   install-hugo:
-    runs-on: windows-2019
+    runs-on: ubuntu-20.04
     steps:
       - name: Git Checkout
         uses: actions/checkout@v2
 
       - name: Install Hugo
-        run: choco install hugo -y
+        run: |
+          sudo apt-getupdate
+          sudo apt-get install hugo
+
+      # - name: Install Hugo
+      #   run: choco install hugo -y
 
       - name: Grab latest Submodule Code
         run: git submodule update --init --recursive
@@ -20,6 +25,6 @@ jobs:
         run: hugo
 
       - name: Run Build Script
-        run: ./.github/scripts/build.ps1
+        run: ./.github/scripts/build.sh
         env:
           TARGET_BRANCH: main
