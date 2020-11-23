@@ -23,5 +23,3 @@ jobs:
         run: ./.github/scripts/build.ps1
         env:
           TARGET_BRANCH: main
-
-
