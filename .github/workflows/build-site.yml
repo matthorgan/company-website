@@ -24,6 +24,7 @@ jobs:
         run: hugo
 
       - name: Run Build Script
-        run: sudo ./.github/scripts/build.sh
+        run: ./.github/scripts/build.sh
+        shell: bash
         env:
           TARGET_BRANCH: main
