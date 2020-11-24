@@ -21,8 +21,13 @@ jobs:
       - name: Build Site
         run: hugo
 
-      - name: Deploy Site
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - name: Build site with Hugo
+        run: hugo
+
+      - name: Run Build Script
+        run: |
+          chmod -R +x ./.github/scripts/
+          ./.github/scripts/build-site.sh
+        shell: bash
+        env:
+          TARGET_BRANCH: main
